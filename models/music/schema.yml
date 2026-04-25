@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+    - name: MUSIC
+      description: 'This is the dbt exam source.'
+      database: dst_db
+      schema: music
+      tables:
+        - name: album
+          description: 'Album information.'
+        - name: artist
+          description: 'Artist information.'
+        - name: genre
+          description: 'Genre information.'
+        - name: media_type
+          description: 'Media type information.'
+        - name: playlist
+          description: 'Playlist information.'
+        - name: playlisttrack
+          description: 'Playlist track information.'
+        - name: track
+          description: 'Track information.'
